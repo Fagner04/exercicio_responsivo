@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/reparar.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/header.css">
+    <link rel="stylesheet" href="/src/home.css">
+    <link rel="stylesheet" href="/src/main.css">
+        <link rel="stylesheet" href="/src/menu.css">
+    <title>Exercio loja responsiva</title>
+</head>
+
+<body>
+    <header>
+        <div class="container"> 
+        <nav id="navbar">
+            <a class="logoPng" href="#home"><img src="/LogO.png" > </a>
+            
+
+            <ul id="nav_list">
+                <li class="nav_item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav_item active">
+                    <a href="#menu">Catalogo</a>
+                </li>
+                <li class="nav_item active">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">Peça aqui</button>
+            <button id="mobile_btn"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav_item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#menu">Cardapio</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">Peça aqui</button>
+        </div>
+        </div>
+    </header>
+    <div class="container">
+    <main id="content">
+        <section id="home">
+             <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Escolha seu manto <span>Favorito</span></h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Aliquam, cumque obcaecati. Laudantium totam facilis alias,
+                </p>
+                <div id="cta_buttons">
+                    <a href="#" id="cart-button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-cart-shopping"></i> 
+                        </button>
+                        <div class="catalogo">Catalogo</div>
+                    </a>
+                
+                <a href="tel:+555556589" id="phone-button">
+                    <button class="btn-default"> 
+                      <i class="fa-solid fa-phone"></i>   
+                                       
+                </button>
+                <div class="tel">(62)9 900000-000</div>
+                
+                </a>
+            </div>
+            <div class="social-media-buttons">
+                <a href="https://ok">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                 <a href="https://ok">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                 <a href="https://ok">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+             </div>
+
+             <div id="banner">
+                <img src="images/Banner.png">
+             </div>
+        </section>
+        <section id="menu">
+            <h2 class="section-title">Catalogo</h2>
+            <h3 class="section-subtitle">Produtos em destaques</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="/images/tema5.png" class="dish-img" alt="">
+
+                    <h3 class="dish-title">
+                        Camisa Do Botafogo
+                    </h3>
+
+                    <span class="dish-description">
+                         Oficial 2024/2025
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$:165,99</h4>
+                        <button class="btn-default-sacola">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="/images/foto3.png" class="dish-img" alt="">
+
+                    <h3 class="dish-title">
+                       Camisa Do Botafogo 
+                    </h3>
+
+                    <span class="dish-description">
+                         Oficial 2024/2025
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$:165,99</h4>
+                        <button class="btn-default-sacola">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="/images/foto2.png" class="dish-img" alt="">
+
+                    <h3 class="dish-title">
+                        Camisa Do Botafogo
+                    </h3>
+
+                    <span class="dish-description">
+                         Oficial 2024/2025 - Masculina
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$:165,99</h4>
+                        <button class="btn-default-sacola">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="/images/foto4.png" class="dish-img" alt="">
+
+                    <h3 class="dish-title">
+                        Camisa Do Botafogo
+                    </h3>
+
+                    <span class="dish-description">
+                         Oficial 2024/2025 - Masculina
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$:165,99</h4>
+                        <button class="btn-default-sacola">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="/main.js"></script>
+</body>
+
+</html>
