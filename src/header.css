@@ -78,6 +78,10 @@ html {
     margin: auto;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 }
 
 @media screen and (max-width: 1170px) {
@@ -86,6 +90,10 @@ html {
     width: 100%;
     margin:0 auto;
      }
+
+     html {
+    overflow-x: hidden;
+}
 
 
     #navbar {
