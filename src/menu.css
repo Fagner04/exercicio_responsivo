@@ -68,6 +68,10 @@
         justify-content: center;
     }
 
+    html {
+    overflow-x: hidden;
+}
+
     .dish {
        width: calc(50% - 20px);      
     }
@@ -81,6 +85,10 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    html {
+    overflow-x: hidden;
+}
 
     .dish {
      width: 89%;   
