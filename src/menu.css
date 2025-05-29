@@ -139,7 +139,7 @@
     align-items: center;
     gap: 20px;
     background-color: #434343;
-    padding: 12px;
+    padding: 10px;
     border-radius: 12px;
     box-shadow: 0px 0px 12px 4px rgb(0,0,0,0.1);
 }
@@ -181,11 +181,28 @@
 
 }
 
+@media screen and (max-width: 600px){
+    .feedback {
+    margin: 0 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #9a5252;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px 4px rgb(0,0,0,0.1);
+}
+
+    
+}
+
 
 @media screen and (max-width: 600px) {
 
     #testimonials {
-         text-align: center;
+         /* text-align: center;
+         
+         */
     }
 
     #testimonials .section-subtitle {
