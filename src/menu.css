@@ -191,10 +191,11 @@
         display: flex;
         align-items: center;
         gap: 20px;
-        background-color: #9a5252;
+        background-color: #00000079;
         padding: 10px;
         border-radius: 12px;
         box-shadow: 0px 0px 12px 4px rgb(0, 0, 0, 0.1);
+        backdrop-filter: blur(50px);
     }
 
     #testimonials {

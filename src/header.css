@@ -12,7 +12,7 @@
 header {
     position: sticky;
     top: 0;
-    background: rgba(255, 253, 253, 0.81); 
+    background: #ffffffdb; 
     backdrop-filter: blur(10px); 
      z-index: 3;
 }
