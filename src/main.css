@@ -82,5 +82,36 @@ gap: 18px;
 
 }
 
+.degrade {
+    background: linear-gradient(200deg, rgb(87, 44, 118) , rgb(169, 169, 175));
+    width: 14rem;
+    height: 3px;
+    /* box-shadow: 0 0px 5px 1px #6c458c; */
+    border-radius: 25px;
+    margin: 0 90px;
+}
 
+@media screen and (max-width: 1812px) {
+    .degrade {
+    background: linear-gradient(200deg, rgb(87, 44, 118) , rgb(169, 169, 175));
+    width: 14rem;
+    height: 3px;
+    /* box-shadow: 0 0px 5px 1px #6c458c; */
+    border-radius: 25px;
+    margin: 0 -1px;
+ 
+}
 
+}
+@media screen and (max-width: 600px) {
+    .degrade {
+    background: linear-gradient(200deg, rgb(87, 44, 118) , rgb(169, 169, 175));
+    width: 14rem;
+    height: 3px;
+    /* box-shadow: 0 0px 5px 1px #6c458c; */
+    border-radius: 25px;
+    margin: 0 100px;
+ 
+}
+
+}

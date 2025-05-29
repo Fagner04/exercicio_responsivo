@@ -161,3 +161,44 @@
     color: var(--title);
 }
 
+@media screen and (max-width: 1170px) {
+/* testimonials */
+#testimonials {
+    flex-direction: column;
+}
+
+#testimonials .section-subtitle {
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+#testimonial_content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #testimonials {
+         text-align: center;
+    }
+
+    #testimonials .section-subtitle {
+        font-size: 2.5rem;
+    }
+
+    #feedbacks .feedback-content {
+         /* text-align: center; */
+    }
+    
+    #testimonials {
+        margin-bottom: 2vh;
+    }
+
+
+}
