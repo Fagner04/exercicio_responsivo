@@ -215,8 +215,10 @@
         margin-bottom: 2vh;
     }
 
+
     html {
         overflow-x: hidden;
+        width: 100%;
     }
 
 }
