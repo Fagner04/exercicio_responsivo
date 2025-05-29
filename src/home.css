@@ -73,7 +73,7 @@
 #banner {
     position: relative;
     top: -250px;
-    left: 39em;    
+    left: 35em;    
     z-index: 2;
 }
 
@@ -82,12 +82,13 @@
      #ffffff ,
      #8555bf);
     width: 50%;
-    height: 82%;
+    height: 80%;
     position: absolute;
     border-radius: 40% 30% 0%;
     z-index: 1;
     top: 130px;
     left: 48rem;
+    margin-top: 10px;
 }
 
 #dishes img {

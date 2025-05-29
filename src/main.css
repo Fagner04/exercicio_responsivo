@@ -1,3 +1,7 @@
+@import url('header.css');
+@import url('menu.css');
+@import url('home.css');
+
 :root {
     --icone-dish-rate:#e9a209;
     --border-bottom: #804597;

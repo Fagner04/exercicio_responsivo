@@ -221,4 +221,26 @@
         width: 100%;
     }
 
+    footer svg {
+    margin: -1%;
+}
+
+}
+
+footer svg {
+    margin: -60px;
+}
+
+#footer_item {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    position:relative;
+    gap: 25px;
+}
+
+#footer_item {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
 }
