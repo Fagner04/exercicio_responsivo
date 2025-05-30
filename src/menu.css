@@ -224,11 +224,8 @@
         height: 100%;
         width: 140%;
     }
-
-
-
-
 }
+ /* ============================= */
 
 #footer_item {
     display: flex;
@@ -248,4 +245,7 @@
 
  #wave {
     margin-bottom: -80px;
+}
+#copyright a{
+    color: #ffffff;
 }
