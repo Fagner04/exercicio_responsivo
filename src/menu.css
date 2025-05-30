@@ -215,8 +215,9 @@
         width: 100%;
     }
 
-    footer svg {
-        margin: -1%;
+    #footer_item {
+        flex-direction: column-reverse;
+
     }
 }
 
@@ -224,14 +225,23 @@ footer{
     max-width: 100%;
 }
 
+
 #footer_item {
     display: flex;
     align-items: center;
     position: relative;
 }
 
-/* #footer_item {
+#footer_item {
+    top: -50px;
+}
+
+#footer_item {
     max-width: 1400px;
     width: 100%;
     margin: auto;
-} */
+}
+
+footer svg {
+    margin-bottom: -50px;
+}
