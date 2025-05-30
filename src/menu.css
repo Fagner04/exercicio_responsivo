@@ -245,6 +245,7 @@
 
  #wave {
     margin-bottom: -80px;
+    max-width: 100%;
 }
 #copyright a{
     color: #ffffff;
