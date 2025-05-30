@@ -200,21 +200,15 @@
 
     #testimonials {
         text-align: center;
-
     }
 
     #testimonials .section-subtitle {
         font-size: 2.5rem;
     }
 
-    #feedbacks .feedback-content {
-        /* text-align: center; */
-    }
-
     #testimonials {
         margin-bottom: 2vh;
     }
-
 
     html {
         overflow-x: hidden;
@@ -222,9 +216,8 @@
     }
 
     footer svg {
-    margin: -1%;
-}
-
+        margin: -1%;
+    }
 }
 
 footer svg {
@@ -234,13 +227,11 @@ footer svg {
 #footer_item {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    position:relative;
-    gap: 25px;
+    position: relative;
 }
 
-#footer_item {
+/* #footer_item {
     max-width: 1400px;
     width: 100%;
     margin: auto;
-}
+} */
