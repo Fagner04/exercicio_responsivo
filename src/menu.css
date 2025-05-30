@@ -219,12 +219,16 @@
         flex-direction: column-reverse;
 
     }
-}
+    
+    footer svg {
+        height: 100%;
+        width: 140%;
+    }
 
-footer{
-    max-width: 100%;
-}
 
+
+
+}
 
 #footer_item {
     display: flex;
@@ -233,15 +237,15 @@ footer{
 }
 
 #footer_item {
-    top: -50px;
-}
-
-#footer_item {
     max-width: 1400px;
     width: 100%;
     margin: auto;
 }
 
-footer svg {
-    margin-bottom: -50px;
+.social-media-buttons {
+    margin-bottom: 5px;
+}
+
+ #wave {
+    margin-bottom: -80px;
 }
