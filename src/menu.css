@@ -224,6 +224,7 @@
         height: 100%;
         width: 140%;
     }
+
 }
  /* ============================= */
 
@@ -231,6 +232,8 @@
     display: flex;
     align-items: center;
     position: relative;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 #footer_item {
@@ -239,14 +242,18 @@
     margin: auto;
 }
 
-.social-media-buttons {
-    margin-bottom: 5px;
-}
+
 
  #wave {
     margin-bottom: -80px;
     max-width: 100%;
+
 }
 #copyright a{
     color: #ffffff;
 }
+
+#copyright a:hover{
+    color: #b5b9b7;
+}
+
