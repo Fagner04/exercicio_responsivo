@@ -220,8 +220,8 @@
     }
 }
 
-footer svg {
-    margin: -60px;
+footer{
+    max-width: 100%;
 }
 
 #footer_item {
